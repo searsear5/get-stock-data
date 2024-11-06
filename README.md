@@ -7,3 +7,8 @@ example.
 const result = axios.post('/stock', {
     ticker: "AAPL"
   })
+
+Example
+use POSTMAN
+method POST->BODY->JSON-> {"ticker" : "AAPL"}
+http://localhost:8000/stock
